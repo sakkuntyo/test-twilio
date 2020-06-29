@@ -1,0 +1,4 @@
+{
+  "twilio_accountSid": "<twilio_accountSid>",
+  "twilio_authToken": "<twilio_authToken>"
+}
