@@ -1,6 +1,8 @@
 # 使い方
 
-0. settings.jsonにtwilioのSIDとトークンを記載する
-1. npm startで起動する
-2. http://localhost:3000/callで呼び出すと電話番号がかかる
-
+1. settings.jsonにtwilioのSIDとトークンを記載する
+2. npm iでモジュールのインストール
+3. route/index.jsのfromにtwilioの電話番号を記載
+4. route/index.jsのtoに宛先の電話番号を記載
+5. npm startで起動する
+6. http://localhost:3000/call にGETリクエストを投げると
